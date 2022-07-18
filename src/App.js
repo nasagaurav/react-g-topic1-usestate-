@@ -2,26 +2,16 @@ import React from 'react';
 import './style.css';
 
 export default function App() {
+return(
+ <div>
+   <button>add more questions</button>
+<h1>total questions</h1>
+<ol>
+  <li>question </li>
+</ol>
 
-    const [x, setx] = React.useState(0);
-
-      console.log( React.useState(0))
 
 
-  const p1 = () =>
-   {setx (x+1)
-   };
-  const p2 = () => {setx (x-1)};
-  const p3 = () => { setx (0);};
-
-  return (
-    <div>
-      <h1>counter ? </h1>
-      <h1>counter {x} </h1>
-
-      <button onClick={p1}>+</button>
-      <button onClick={p2}>-</button>
-      <button onclick={p3}>0</button>
-    </div>
-  );
+   </div>
+);
 }
