@@ -2,11 +2,11 @@ import React from 'react';
 import './style.css';
 
 export default function App() {
-    const a = [a,seta] = React.useState([]);
+    const  [a,seta] = React.useState([]);
 
     const p1 =()=>{ 
     
-      seta=( [...a,' '] );
+      seta( [...a,' '] );
     }
 
 return(
